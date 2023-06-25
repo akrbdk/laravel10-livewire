@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('counter');
+
+Route::get('/calculator', \App\Http\Livewire\Calculator::class)->name('calculator');

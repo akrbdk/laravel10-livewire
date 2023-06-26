@@ -30,5 +30,7 @@ class DatabaseSeeder extends Seeder
                     $c->countries()->saveMany(Country::factory(10)->make());
                 });;
         }
+
+        Product::factory(100)->create();
     }
 }

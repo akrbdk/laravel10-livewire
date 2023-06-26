@@ -22,3 +22,4 @@ Route::get('/todo-list', \App\Http\Livewire\TodoList::class)->name('todo-list');
 Route::get('/cascading-dropdown', \App\Http\Livewire\CascadingDropdown::class)->name('cascading-dropdown');
 Route::get('/products', \App\Http\Livewire\ProductSearch::class)->name('products');
 Route::get('/image-upload', \App\Http\Livewire\ImageUpload::class)->name('image-upload');
+Route::get('/register', \App\Http\Livewire\RegisterForm::class)->name('register');
